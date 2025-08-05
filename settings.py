@@ -18,6 +18,7 @@ if dotenv_path.exists():
 # The default value can work, if no user config.
 CONFIG = os.getenv("CONFIG", "default config")
 LOCAL = os.getenv("local", "en")
+DEFAULT_LANGUAGE = os.getenv("default_language", "ar")
 
 
 # the information of package
